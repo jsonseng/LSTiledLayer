@@ -1,0 +1,6 @@
+framework module LSTiledLayer {
+  umbrella header "LSTiledLayer.h"
+
+  export *
+  module * { export * }
+}
