@@ -10,4 +10,6 @@
 
 @interface LSTIledView : UIView
 
+- (void)loadDrawContentImg;
+
 @end

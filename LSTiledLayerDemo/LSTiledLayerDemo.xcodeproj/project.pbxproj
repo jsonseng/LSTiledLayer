@@ -394,6 +394,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = LSTiledLayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jsonseng.www.LSTiledLayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,6 +411,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = LSTiledLayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jsonseng.www.LSTiledLayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,6 +461,7 @@
 				BDBA93A71D9E69B4004E8CFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDBA93A81D9E69B4004E8CFA /* Build configuration list for PBXNativeTarget "LSTiledLayerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +470,7 @@
 				BDBA93AA1D9E69B4004E8CFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

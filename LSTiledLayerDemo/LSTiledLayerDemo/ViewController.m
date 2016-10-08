@@ -35,6 +35,7 @@
     LSTIledView *contentView = [[LSTIledView alloc] init];
     contentView.frame        = CGRectMake(0, 0, 10000, 10000);
     [scrollView addSubview:contentView];
+    [contentView loadDrawContentImg];
 }
 
 

@@ -9,11 +9,23 @@
 #import "LSTIledView.h"
 #import <LSTiledLayer/LSTiledLayer.h>
 
+@interface LSTIledView ()
+{
+    UIImage *contentImage;
+}
+
+@end
+
 @implementation LSTIledView
 
 + (Class)layerClass
 {
     return [LSTiledLayer class];
+}
+
+- (void)loadDrawContentImg
+{
+    contentImage = [UIImage imageNamed:@"drawContent"];
 }
 
 
@@ -29,6 +41,8 @@
     
     NSString *positionStr = NSStringFromCGPoint(rect.origin);
     [positionStr drawInRect:rect withAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor]}];
+    
+    [contentImage drawInRect:rect];
 }
 
 
