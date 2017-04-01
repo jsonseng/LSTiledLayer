@@ -39,18 +39,7 @@ more powerful CATiledLayer
 ~~~ iOS
 
 @property CGSize tileSize;
-
 ~~~
-
-### 线程绘制选择
-
-~~~ iOS
-
-@property BOOL isMainThread;
-
-~~~
-
-默认为NO，修改此属性可以让绘制进行在主线程。以用于应对频繁交互情况较少，但需要快速看到结果的情况下。比如缩放放手的一瞬间，此时更加偏向立刻展示内容，不然存在延迟展示，而可能让用户产生一定的焦虑感
 
 ---
 
