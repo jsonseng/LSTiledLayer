@@ -26,6 +26,6 @@ FOUNDATION_EXPORT const unsigned char LSTiledLayerVersionString[];
 
 @property CGSize tileSize;
 
-@property BOOL isMainThread;
+@property (readonly, assign) BOOL isMainThread;
 
 @end
