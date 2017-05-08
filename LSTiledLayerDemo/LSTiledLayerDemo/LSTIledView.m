@@ -23,6 +23,19 @@
     return [LSTiledLayer class];
 }
 
+- (instancetype)init
+{
+    self = [super init];
+    
+    if (self)
+    {
+        CGFloat scale = [UIScreen mainScreen].scale;
+        ((CATiledLayer *)self.layer).tileSize = CGSizeMake(128 * scale, 128 * scale);
+    }
+    
+    return self;
+}
+
 - (void)loadDrawContentImg
 {
     contentImage = [UIImage imageNamed:@"drawContent"];
